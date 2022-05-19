@@ -1,10 +1,10 @@
 # sentiment-analysis
 
-Prueba de concepto sobre solución end-to-end de un modelo de analisis de comentarios de una aplicación movil de Play Store.
+Prueba de concepto sobre solución end-to-end de un modelo de análisis de comentarios de una aplicación móvil de Play Store.
 
 ## Models Dev
 
-Este notebook contiene el proceso de desarrollo de los modelos con sus respectivas fases de Adquisición de datos, preprocesamiento de datos y entrenamiento de los modelos utilizando AutoKeras. Los modelos resultantes son:
+Este notebook contiene el proceso de desarrollo de los modelos con sus respectivas fases de Adquisición de datos, Preprocesamiento de datos y Entrenamiento de los modelos utilizando AutoKeras. Los modelos resultantes son:
 
 Clasificador de connotación positiva de comentarios : Este modelo devuelve la probabilidad de que un comentario tenga una connotación positiva.
 Predictor de score de comentarios : Este modelo predice la cantidad de estrellas (en un rango de 1-5) de un comentario. 
@@ -15,7 +15,7 @@ Esta carpeta contiene los modelos guardados.
 
 ## main.py
 
-Este script contiene la publicación como API del modelo
+Este script contiene la publicación como API del modelo.
 
 ## Dockerfile
 
@@ -23,7 +23,7 @@ Contiene información sobre el contenedor Docker.
 
 ## Requirements
 
-Contiene los paquetes necesarios y sus versiones
+Contiene los paquetes necesarios y sus versiones.
 
 
 # API
@@ -32,7 +32,7 @@ el modelo esta desplegado como API en Heroku con el siguiente endopoint https://
 
 esta API tiene dos metodos :
 
-- Acceder a los comentarios de la aplicación : Mediante una petición GET y definiendo un parámetro n igual a la cantidad de lo ultimos comentarios que retornara la API :
+- Acceder a los comentarios de la aplicación : Mediante una petición GET y definiendo un parámetro n igual a la cantidad de lo últimos comentarios que retornara la API :
 
 GET : https://anorpe-sentiment-analysis.herokuapp.com/?n=1
 
