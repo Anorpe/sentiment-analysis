@@ -1,11 +1,11 @@
-FROM python:3.7.3-stretch
+FROM python:3.8.5
 
 # Maintainer info
-LABEL maintainer="erickson_ruaroii@dlsu.edu.ph"
+LABEL maintainer="aorregop@unal.edu.co"
 
 # Make working directories
-RUN  mkdir -p  /food-vision-api
-WORKDIR  /food-vision-api
+RUN  mkdir -p  /sentiment-analysis
+WORKDIR  /sentiment-analysis
 
 # Upgrade pip with no cache
 RUN pip install --no-cache-dir -U pip
